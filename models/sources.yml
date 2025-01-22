@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: postgres
+    database: dbtspec
+    schema: dbt_bnunes
+    tables: 
+      - name: d_time
+      - name: accounts
+      - name: customers

@@ -10,6 +10,6 @@ select
   c.first_name    as customer_first_name,
   c.last_name     as customer_last_name,
   c.cpf           as customer_cpf
-from accounts a
-  left join customers c
+from dbtspec.dbt_bnunes.accounts a
+  left join dbtspec.dbt_bnunes.customers c
     on c.customer_id = a.customer_id
