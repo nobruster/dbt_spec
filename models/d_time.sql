@@ -33,3 +33,4 @@ select
   to_char(action_timestamp, 'Day') as action_weekday
   -#}
 FROM cleaned_d_time
+{{ limit_lines_dev(environment='prod') }}

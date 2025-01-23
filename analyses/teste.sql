@@ -1,0 +1,1 @@
+select * from dbtspec.dbt_bnunes.accounts
